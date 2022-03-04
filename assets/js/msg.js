@@ -1,0 +1,10 @@
+document.writeln("			<script type=\'text/javascript\'>");
+document.writeln("			function Solution(type){");
+document.writeln("				if(type == 1) {");
+document.writeln("					layer.alert(\"部分手机QQ用户无法从相册扫码，会直接拒绝登陆（提示<font color=\'#FF0000\'>无法识别二维码</font>），目前解决方案两种：<br>①.使用电脑或另一台手机打开页面，然后用手机QQ扫码登录，正常。<br>②.使用<a href=\'https://office.qq.com/\' target=\'_blank\'>TIM</a>进行操作，可以从相册扫码登录，<a href=\'https://office.qq.com/\' target=\'_blank\'><font color=\'#FF0000\'>点击下载</a>\");");
+document.writeln("				}");
+document.writeln("				else if(type == 2) {");
+document.writeln("					layer.alert(\"如果扫码提示：<font color=\'#FF0000\'>登录信息已过期，请重新尝试登录</font>。则是需要重新刷新页面再扫码，二维码有效期较短，请操作快点。\");");
+document.writeln("				}");
+document.writeln("			}");
+document.writeln("			</script>");
